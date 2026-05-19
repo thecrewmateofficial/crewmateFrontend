@@ -53,7 +53,7 @@ export default function DevSession() {
             </code>
             &nbsp;·&nbsp; branch:{" "}
             <code className="font-mono text-[14px] sm:text-[15px] text-[#f13c20]/80 bg-[#f13c20]/10 px-2 py-0.5 rounded">
-              main
+              dev
             </code>
           </p>
 
