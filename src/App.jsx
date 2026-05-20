@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+
 export default function DevSession() {
   const [visible, setVisible] = useState(false);
 
@@ -30,7 +31,7 @@ export default function DevSession() {
         <div className="flex items-center gap-2.5">
           <span className="w-2 h-2 rounded-full bg-[#f13c20] animate-pulse" />
           <span className="text-[11px] font-semibold tracking-[.18em] uppercase text-[#f13c20]">
-            Dev session active
+            Dev session active 
           </span>
         </div>
 
@@ -56,7 +57,7 @@ export default function DevSession() {
               dev
             </code>
           </p>
-
+          <h1 className=" text-zinc-400 text-md"><span className="text-white/30">Api: </span> {import.meta.env.VITE_API_URL}</h1>
           <p>
             server <span className="text-white/60">running</span>
             {" · "}
